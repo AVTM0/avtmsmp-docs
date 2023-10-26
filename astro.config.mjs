@@ -10,7 +10,7 @@ export default defineConfig({
 				src: './src/assets/docs.png'
 			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/AVTM0/avtmsmp-docs',
 			},
 			customCss: [
 				'./src/styles/custom.css',
@@ -20,7 +20,10 @@ export default defineConfig({
 				'@fontsource/atkinson-hyperlegible/700-italic.css',
 				'@fontsource-variable/jetbrains-mono',
 				'@fontsource-variable/jetbrains-mono/wght-italic.css',
-			]
+			],
+			components: {
+				SocialIcons: './src/components/CustomSocial.astro'
+			}
 		}),
 	],
 });
