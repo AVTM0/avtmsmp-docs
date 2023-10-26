@@ -2,8 +2,8 @@
 // src/components/EmailLink.astro
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/SocialIcons.astro';
-import ServerStatusWidget from './ServerStatusWidget.astro';
+import ServerStatusWidget from './ServerStatusWidget.vue';
 ---
 
-<ServerStatusWidget></ServerStatusWidget>
+<ServerStatusWidget client:only="vue"/>
 <Default {...Astro.props}><slot /></Default>
