@@ -3,6 +3,7 @@
 :root {
 	--sl-font: 'Atkinson Hyperlegible', sans-serif;
 	--sl-font-mono: 'JetBrains Mono', sans-serif;
+	font-family: 'JetBrains Mono', ;
 
 	--sl-color-accent-low: #28154d;
 	--sl-color-accent: #7d00fa;
