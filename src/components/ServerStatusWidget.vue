@@ -1,6 +1,6 @@
 <script  setup>
 import { ref } from 'vue'
-const url = 'https://api.mcstatus.io/v2/status/java/avtmsmp.enxada.host'
+const url = 'https://api.mcstatus.io/v2/status/java/guerraavtmsmp.jogar.io'
 
 const response = await fetch(url)
 
@@ -25,7 +25,7 @@ if (officialServer.value.online) {
   <div class="wrapper">
     <img :src="`https://api.mcstatus.io/v2/icon/${officialServer.host}`" class="serverImage">
     <div class="info">
-      <span class="serverTitle">Official Server Status</span>
+      <span class="serverTitle">AVTMSMP : Guerra</span>
       <div class="status">
         <span class="presence">
           <svg width="10" height="10" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
